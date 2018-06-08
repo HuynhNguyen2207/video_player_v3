@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 1.625rem;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #03071E;
+}
+
+span {
+  color: #FDB56A;
+}
+
+video {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
