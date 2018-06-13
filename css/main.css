@@ -13,13 +13,12 @@ span {
   color: #FDB56A;
 }
 
-video {
-  display: block;
-  width: 100%;
-}
-
 .container {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.video-wrapper {
+  display: block;
 }
