@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 p {
@@ -7,18 +9,27 @@ p {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: #03071E;
-}
-
-span {
-  color: #FDB56A;
+  margin-top: 30px;
 }
 
 .container {
   width: 90%;
   max-width: 1000px;
+  margin: 20px auto;
+}
+
+.video-wrapper{
+  width:100%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
-.video-wrapper {
-  display: block;
+.mejs__controls {
+  background: orange !important;
+}
+
+@media (min-width: 769px ) {
+  .video-wrapper {
+    margin-top: 30px;
+  }
 }
